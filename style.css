@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #262626;
+}
+
+.blur {
+    position: absolute;
+    bottom: 50%;
+    right: 70%;
+    width: 500px;
+    height: 500px;
+    border-radius: 856px;
+    background: radial-gradient(47.33% 47.33% at 50.00% 50.00%, rgba(146, 60, 214, 0.46) 0%, rgba(34, 34, 34, 0.10) 100%);
+    z-index: -1;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.navbar {
+    padding: 1em 3em;
+}
+
+/* nav {
+    border-bottom: 1px solid #eee;
+} */
+
+.cta-btn {
+    /* padding: .5em; */
+    padding: .75em 1em;
+    border: 1px solid indigo;
+    background: none;
+    color: white;
+    border-radius: .3em;
+    margin-left: 1.5em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+    gap: 4em;
+}
+
+section h1 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+section p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.cta {
+    padding: .75em 1em;
+    border: none;
+    background: #923CD6;
+    color: white;
+    border-radius: .3em;
+}
+
+.message-box {
+    position: relative;
+    top: 15px;
+    right: 30px;
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #923CD6;
+}
+
+.message-box svg {
+    position: inherit;
+    top: 12px;
+    left: 10px;
+}
